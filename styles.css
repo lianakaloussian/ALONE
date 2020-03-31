@@ -1,1 +1,8 @@
 styles/       reset.css       debug.css
+:root { font: 20px/1.2 sans-serif; }
+body, body * {    margin:          unset;    box-sizing:      unset;    padding:         unset;    font-size:       unset;    color:           unset;    text-decoration: unset;}
+body * {    color:                 hsla(000, 100%, 100%, 0.88) !important;    background:            hsla(210, 100%,  50%, 0.33) !important;    outline: 0.25rem solid hsla(000, 100%, 100%, 0.50) !important;}
+<p class=”debug-center”>ARTICLE</p>
+.debug-center {    display:         flex;    justify-content: center;    align-items:     center;}
+@media (max-width: 8.5in) { :root { font-size: 18px; } }@media (max-width: 5.0in) { :root { font-size: 16px; } }
+h1   { font: 700 2.0rem/1.2 …; color: hsl(000, 000%, 33%); }h2   { font: 400 1.5rem/1.2 …; color: hsl(000, 000%, 33%); }time { font: 700 1.0rem/1.2 …; color: hsl(250, 100%, 83%); }h3   { font: 700 1.0rem/1.2 …; color: hsl(250, 100%, 67%); }p    { font: 400 1.0rem/1.5 …; color: hsl(000, 000%, 33%); }
